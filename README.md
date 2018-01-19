@@ -1,1 +1,3 @@
-"# Sirius_Workshop_Project" 
+# Sirius_Workshop_Project
+
+# A simple movie blog 
