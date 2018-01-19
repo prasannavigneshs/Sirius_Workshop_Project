@@ -97,11 +97,16 @@ footer{
   background-color:  black;
   padding-left: 20px;
   padding-right: 20px;
+  position: relative;
+  left: 10;
+  bottom: 0;
+  width: 97%;
 }
 
 footer .logo{
   float:right;
   padding: 10px;
+  padding-right: 40px;
 }
 
 footer .icons{
