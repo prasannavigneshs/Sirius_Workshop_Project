@@ -1,0 +1,97 @@
+body{
+  background-color: #442D4B;
+  font-family: 'Roboto Slab', serif;
+  color: #FFFFFF;
+}
+.navbar{
+  margin: 20px;
+  height:40px;
+}
+
+.navbar-logo{
+  float:left;
+  display: inline-block;
+}
+
+.fright{
+  float: right;
+}
+
+.logo{
+  width: 200px;
+}
+
+header ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+header ul li a{
+  text-decoration: none;
+  color: #ffcb59;
+  font-size: 20px;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.form-align{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-align label{
+  display: block;
+}
+
+.form-align input, .form-align select, .form-align textarea{
+  display: block;
+  width:100%;
+  background-color: #442D4B;
+  color: white;
+  font-size: 18px;
+  padding-left: 5px;
+  border: 1px solid white;
+  margin: 7px 0 15px;
+  font-family: inherit;
+}
+
+.form-align input{
+  height:30px;
+}
+
+.btn{
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: 3px solid orange;
+  display: block;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+footer{
+  height: auto;
+  background-color:  black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer .logo{
+  float:right;
+  padding: 10px;
+}
+
+footer .icons{
+  float:left:
+  width:30px;
+  height: 40px;
+  padding:10px;
+}
