@@ -41,6 +41,10 @@ header ul li a{
   margin-bottom: 30px;
 }
 
+form{
+  white-space: nowrap;
+}
+
 .form-align{
   width: 500px;
   margin: 0 auto;
@@ -64,6 +68,17 @@ header ul li a{
 
 .form-align input{
   height:30px;
+}
+
+.lang{
+  display: inline-block;
+  width: 50%;
+}
+
+.rate{
+  display: inline-block;
+  width:50%;
+  padding-left: 10px;
 }
 
 .btn{
