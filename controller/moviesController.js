@@ -13,4 +13,16 @@ exports.getAllMovies = function(req,res){
     return res.json(opJson);
   });
 
+};
+
+exports.addNewMovie = function(req, res, next){
+      var db = dbService.database,
+      movie = req.body,
+      moviesCollection = db.collection("movies");
+
+      moviesCollection.insert(movie).then(function(save_data){
+        return res.json({
+          "isSuccess": true
+        });
+      });
 }
