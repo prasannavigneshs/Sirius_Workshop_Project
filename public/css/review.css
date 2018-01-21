@@ -1,0 +1,32 @@
+.redirect{
+  margin: 40px 20px;
+}
+.redirect img{\
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.redirect a{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.movieheader{
+  margin: 20px;
+}
+
+.movieheader h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.star{
+  margin: 5px 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
