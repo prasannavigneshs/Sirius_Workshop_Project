@@ -16,7 +16,7 @@
     </ul>
   </header>
   <div class="clearfix"></div>
-  <form class="add_movie_form" id="add_movie_form">
+  <form class="add_movie_form" id="add_movie_form" onsubmit="event.preventDefault(); addMovie();">
     <h2>Add a New Movie</h2>
     <ul>
       <li>
@@ -75,5 +75,8 @@
       <button class="btn insta"></button>
     </div>
   </footer>
+  <script type="text/javascript" src="js/addmovie.js">
+
+  </script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+.movie-description {
+  padding: 0;
+}
+
+.movie-description .content {
+  margin: 50px;
+}
+
+.goBackLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  vertical-align: super;
+}
+
+#goBackImg {
+  width: 30px;
+  margin-right: 5px;
+}
+
+#movie-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.stars .star {
+  width: 20px;
+  height: 20px;
+  margin: 10px auto;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+}
+
+.star-full {
+  background-image: url("../images/star.png");
+}
+
+.star-half {
+  background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+  background-image: url("../images/star-empty.png");
+}
+
+.movie-img {
+  height: 600px;
+  margin: 10px 0px;
+  background-image: url("../images/movie.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#movie-type {
+  margin: 50px;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+
+.movie-desc {
+  display: flex;
+}
+
+.movie-desc .detail-block:nth-child(1) {
+  flex: 3;
+  margin: 10px 25px 10px 0px;
+}
+
+.movie-desc .detail-block:nth-child(2) {
+  flex: 1;
+  margin: 10px 0px 10px 50px;
+}
+
+.detail-block span {
+  color: #f7e51e;
+  font-size: 1.6rem;
+}
+
+.detail-block .plot-block {
+  text-align: justify;
+}
+
+.detail-block ul, p {
+  margin: 15px 0;
+}
+
+.detail-block ul li {
+  display: block;
+}

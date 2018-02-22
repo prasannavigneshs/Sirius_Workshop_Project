@@ -40,7 +40,7 @@ function constructDOM(res){
         for(i=0;i<obj.movies.length;i++)
         {
           var code = '<div class="movie fleft">'+
-                                    '<a href="#">'+
+                                    '<a href="/movieDetail.html#'+movies[i].name+'">'+
                                       '<div class="poster">'+
                                           '<img src='+obj.movies[i].posterUrl+'>'+
                                       '</div>'+
